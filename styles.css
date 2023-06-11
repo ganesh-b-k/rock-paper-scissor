@@ -27,7 +27,7 @@
 }
 .letsPlay{
     position: absolute;
-    top: 80px;
+    top: 95px;
     z-index: 100;
 }
 
@@ -37,7 +37,7 @@
 	width: 30vw;
 	justify-content: space-evenly;
 	position: absolute;
-	top: 100px;
+	top: 130px;
 	z-index: 1;
 }
 
@@ -126,4 +126,10 @@
     }
     
 }
+@media screen and (max-width: 460px){
+	.title{
+		font-size: 30px;
+	}
+}
+
 
